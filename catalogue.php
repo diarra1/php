@@ -22,8 +22,14 @@ require_once('view/page_bottom.php');// Inclusion des defines
     <div class="forfaits">
         <h2><?php echo $forfaits['nom'];?> </h2>
         <p><?php echo $forfaits['description'];?> </p>
+
     </div>
 
 </div>
+<?php
+
+?>
+}
+?>
 </body>
 </html>
