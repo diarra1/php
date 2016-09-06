@@ -10,3 +10,4 @@ require_once(dirname(__FILE__).'/../defines.php');// Inclusion des defines
 <body>
 <div id="wrapper">
     <header><?php require('menu.php'); ?></header>
+<link rel="stylesheet" href="main.css"/>

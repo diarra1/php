@@ -6,4 +6,5 @@ $menu_data = array(
     'Accueil' => 'index.php',
     'Contact' => 'contact.php',
     'Catalogue' => 'catalog.php',
+    'Reservation' =>'reservation.php',
 );
