@@ -2,7 +2,7 @@
 require_once('view/page_top.php');// Inclusion des defines
 ?>
 <main>
-    <h1>Accueil</h1>
+    <h1>reservation</h1>
 </main>
 <?php
 require_once('view/page_bottom.php');// Inclusion des defines
@@ -24,10 +24,10 @@ if (array_key_exists('saisie_nom', $_POST)
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Formulaire simple nom et prénom</title>
+    <title>  Mon Formulaire</title>
 </head>
 <body>
-<h2>Formulaire simple nom et prénom</h2>
+<h2>Mon formulaire</h2>
 <!-- Afficher les donnée reçues ici dans un paragraphe -->
 
 <form id="formulaire" action="index.php" method="post">

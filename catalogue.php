@@ -1,6 +1,6 @@
 <?php
-//require_once('view/page_top.php');// Inclusion des defines//
-require_once (dirname(__FILE__) .'/view/forfaits.php');
+require_once('view/page_top.php');// Inclusion des defines//
+//require_once (dirname(__FILE__) .'/view/forfaits.php');
 ?>
 <main>
     <h1>Catalog</h1>
