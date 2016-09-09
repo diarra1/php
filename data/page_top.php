@@ -6,8 +6,11 @@ require_once(dirname(__FILE__).'/../defines.php');// Inclusion des defines
 <head lang="en">
     <meta charset="UTF-8">
     <title><?= SITE_NAME ?></title>
+    <link rel="stylesheet" href="/style/main.css" />
 </head>
 <body>
 <div id="wrapper">
     <header><?php require('menu.php'); ?></header>
-<link rel="stylesheet" href="main.css"/>
+</div>
+</body>
+</html>
