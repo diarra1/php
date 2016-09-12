@@ -10,7 +10,9 @@ require_once(dirname(__FILE__).'/../defines.php');// Inclusion des defines
 </head>
 <body>
 <div id="wrapper">
-    <header><?php require('menu.php'); ?></header>
+    <header><?php require('menu.php');
+        require_once(dirname(__FILE__) . '/login_logout_form.php');
+        ?></header>
 </div>
 </body>
 </html>

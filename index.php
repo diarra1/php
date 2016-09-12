@@ -1,6 +1,6 @@
 <?php
-require_once('data/page_top.php');// Inclusion des defines
-require_once(dirname(__FILE__).'/data/forfaits.php');
+require_once('view/page_top.php');// Inclusion des defines
+require_once(dirname(__FILE__) . '/data/forfaits.php');
 $forfaits_data = get_forfaits();
 $categorie_page = true;
 ?>
@@ -34,8 +34,8 @@ $categorie_page = true;
             <a href="#article1">1</a>
         </div>
     </div>
-
+<a href="catalogue.php">re</a>
 </main>
 <?php
-require_once ('data/page_bottom.php');
+require_once('view/page_bottom.php');
 ?>

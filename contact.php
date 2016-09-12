@@ -1,5 +1,5 @@
 <?php
-require_once('data/page_top.php');// Inclusion des defines
+require_once('view/page_top.php');// Inclusion des defines
 ?>
 <main>
 
@@ -92,5 +92,5 @@ require_once('data/page_top.php');// Inclusion des defines
 </main>
 
 <?php
-require_once ('data/page_bottom.php');
+require_once('view/page_bottom.php');
 ?>

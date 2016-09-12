@@ -301,8 +301,73 @@ a:hover{
     height:150px;
 }
 img{
-    width: 500px;
+
 }
 .champ_invalide{
     border: 1px solid #ff0000;
+}
+.forfait{
+    display: inline-block;
+    width:80% ;
+}
+.direct{
+    display: inline-block;
+    width: 40%;
+    background-color:lightgray;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px ;
+    text-align: center;
+    overflow: hidden;
+    border:solid 1px #555;
+    margin-left: 100px;
+}
+#re>img{
+    float:right;
+    margin-right:10px;
+    margin-bottom: 4px;
+    background-color:lightgray ;
+    width: 40px;
+display: inline;
+
+}
+image{
+    display: inline-block;
+}
+
+.direct>p{
+    color:blue;
+    height: 200px;
+    width: 100px;
+}
+.slider{
+    width:400px;
+    height:200px;
+    border:solid 10px #555;
+    padding:0;
+    position:relative;
+    margin:150px auto;
+}
+
+#slider-list{
+    list-style-type:none;
+    display:flex;
+    margin:0;
+    position:absolute;
+    left:0;
+    top:0;
+    padding:0;
+
+
+
+}
+#p, #adm, #re{
+    display: inline;
+    width: 40%;
+    background-color:lightgray;
+    margin: 2%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
 }
